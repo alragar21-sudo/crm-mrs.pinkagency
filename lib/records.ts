@@ -1,6 +1,6 @@
 import { sql } from "./db";
 
-// Las 12 colecciones del CRM (deben coincidir con COLS en public/crm/app.js).
+// Las 19 colecciones del CRM (deben coincidir con COLS en public/crm/app.js).
 export const COLS = [
   "subcuentas",
   "contactos",
@@ -14,6 +14,13 @@ export const COLS = [
   "usuarios",
   "flujos",
   "embudos",
+  "citas",
+  "tareas",
+  "facturas",
+  "productos",
+  "suscripciones",
+  "resenas",
+  "agentes",
 ] as const;
 
 export type Col = (typeof COLS)[number];
