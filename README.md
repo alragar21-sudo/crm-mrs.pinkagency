@@ -18,7 +18,7 @@ CRM de Mrs. Pink Agency. La interfaz es el prototipo original (vanilla JS en
 - **Datos:** `public/crm/crm-db-adapter.js` replica la interfaz Firestore del prototipo
   (`collection(col).doc(id).set/delete`, `onSnapshot`) contra `/api/data` sobre Neon.
 - **Persistencia:** tabla `records (account_id, collection, id, data jsonb)` — document store
-  que mapea 1:1 con las 12 colecciones del CRM.
+  que mapea 1:1 con las 19 colecciones del CRM.
 - **Auth:** `auth_users` + `sessions`, cookie httpOnly. El RBAC in-app del prototipo
   (colección `usuarios`) sigue funcionando igual.
 

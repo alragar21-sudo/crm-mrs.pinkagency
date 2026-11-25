@@ -7,7 +7,7 @@
 (function () {
   "use strict";
 
-  var COLS = ["subcuentas","contactos","oportunidades","conversaciones","campanas","integraciones","anuncios","campanasAds","briefs","usuarios","flujos","embudos"];
+  var COLS = ["subcuentas","contactos","oportunidades","conversaciones","campanas","integraciones","anuncios","campanasAds","briefs","usuarios","flujos","embudos","citas","tareas","facturas","productos","suscripciones","resenas","agentes"];
   var LS_KEY = "mp-crm-datos-v1";
   var POLL_MS = 8000;
 

@@ -75,7 +75,8 @@ const styles: Record<string, React.CSSProperties> = {
     minHeight: "100vh",
     display: "grid",
     placeItems: "center",
-    background: "#530F0E",
+    background:
+      "radial-gradient(120% 80% at 85% 0%, rgba(238,171,197,.28) 0%, rgba(238,171,197,0) 55%), linear-gradient(160deg, #6A1614 0%, #530F0E 45%, #3F0B0A 100%)",
     fontFamily:
       '"Plus Jakarta Sans", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif',
     padding: 24,
@@ -112,7 +113,8 @@ const styles: Record<string, React.CSSProperties> = {
     padding: "11px 14px",
     borderRadius: 12,
     border: "none",
-    background: "#EEABC5",
+    background: "linear-gradient(135deg, #F4C2D6 0%, #EEABC5 55%, #E592B3 100%)",
+    boxShadow: "0 6px 18px rgba(238,171,197,.35)",
     color: "#530F0E",
   },
 };

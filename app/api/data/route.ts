@@ -4,7 +4,7 @@ import { listAll } from "@/lib/records";
 
 export const dynamic = "force-dynamic";
 
-// Bootstrap: devuelve las 12 colecciones del account del usuario.
+// Bootstrap: devuelve las 19 colecciones del account del usuario.
 export async function GET() {
   const user = await getSessionUser();
   if (!user) return NextResponse.json({ error: "No autenticado." }, { status: 401 });
